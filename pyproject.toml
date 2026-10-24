@@ -12,6 +12,7 @@ requires-python = ">=3.10"
 dependencies = [
     "psycopg[binary]",
     "pgvector",
+    "bm25s",
     "sentence-transformers",
     "torch",
     "trl",
