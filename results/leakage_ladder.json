@@ -1,0 +1,58 @@
+{
+  "naive": {
+    "n_explicit": 500,
+    "n_change": 200,
+    "explicit": {
+      "leak_top1": 0.802,
+      "veracc@5": 0.106,
+      "veracc@20": 0.25
+    },
+    "change": {
+      "has_y0": 0.965,
+      "has_y1": 0.99,
+      "both_sides": 0.96
+    }
+  },
+  "range": {
+    "n_explicit": 500,
+    "n_change": 200,
+    "explicit": {
+      "leak_top1": 0.522,
+      "veracc@5": 0.172,
+      "veracc@20": 0.364
+    },
+    "change": {
+      "has_y0": 0.98,
+      "has_y1": 0.995,
+      "both_sides": 0.98
+    }
+  },
+  "graph": {
+    "n_explicit": 500,
+    "n_change": 200,
+    "explicit": {
+      "leak_top1": 0.0,
+      "veracc@5": 0.332,
+      "veracc@20": 0.522
+    },
+    "change": {
+      "has_y0": 0.0,
+      "has_y1": 1.0,
+      "both_sides": 0.0
+    }
+  },
+  "sql": {
+    "n_explicit": 500,
+    "n_change": 200,
+    "explicit": {
+      "leak_top1": 0.0,
+      "veracc@5": 1.0,
+      "veracc@20": 1.0
+    },
+    "change": {
+      "has_y0": 0.0,
+      "has_y1": 1.0,
+      "both_sides": 0.0
+    }
+  }
+}

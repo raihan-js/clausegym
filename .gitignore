@@ -1,0 +1,15 @@
+.venv/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+data/raw/
+data/sections_*.json
+data/bm25/
+results/*.log
+results/leakage_*_0.json
+results/leakage_*_350.json
+mlruns/
+.coverage
+.env
